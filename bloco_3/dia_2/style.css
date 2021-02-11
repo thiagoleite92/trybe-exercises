@@ -1,0 +1,29 @@
+h1{
+    font-family: sans-serif;
+    font-size: 65px;
+    color:orange;
+}
+li{
+    background-color: darkcyan;
+}
+.mudarcor{
+    color: black;
+}
+p{
+    font-weight: 600;
+    font-size: 3em;
+    text-decoration: underline;
+}
+body{
+    font-style: align-self: start;
+    font-size: 16px;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.brown{
+    background-color: burlywood;
+}
