@@ -1,0 +1,34 @@
+div{
+    width: 30%;
+}
+div:hover{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    
+    
+
+}
+.primaria{
+    background-color: rgba(0, 98, 255, 0.719);
+    
+}
+
+.secundaria{
+    background-color: purple;
+}
+.complementar{
+    background: linear-gradient(90deg, green 50%, red 50%);
+    width: 40%;
+    
+}
+.escura{
+    background-color: darkslategray;
+}
+.clara{
+    background-color: aquamarine;
+}
+h3{
+    text-decoration: underline white;
+    font-style: italic;
+}
