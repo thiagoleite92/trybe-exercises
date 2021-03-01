@@ -1,13 +1,13 @@
 let n = 5;
 let symbol = '*';
-let inputline = '';
+let inputLine = '';
 
 for (lineIndex = 0; lineIndex < n; lineIndex +=1){
-    inputline = inputline + symbol;
+    inputLine = inputLine + symbol;
 }
 
 for (lineIndex = 0; lineIndex < n; lineIndex +=1){
-    console.log(inputline)
+    console.log(inputLine)
 }
 
 
