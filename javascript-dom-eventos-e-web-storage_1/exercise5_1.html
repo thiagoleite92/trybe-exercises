@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+
+    <style>
+      div {
+        border-color: black;
+        border-style: solid;
+      }
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    <div class="main-content">
+      <div class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </div>
+    </div>
+    <script>
+        /*
+        Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
+        - document.getElementById()
+        - document.getElementsByClassName()
+        - document.getElementsByTagName()
+
+ Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+        */
+      document.querySelector('p').innerText = 'Me vejo trabalhando muito, para uma empresa séria que queira ver o crescimento profissional dos seus contratados';
+      document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb(76,164,109)';
+      document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
+      document.querySelector('h1').innerText = 'Exercício 5.1 - JavaScript';
+      document.querySelector('p').style.textTransform = 'uppercase';
+      let pAll = document.querySelectorAll('p');
+      for (let i = 0; i < pAll.length; i += 1) {
+        console.log(pAll[i].innerText)
+      }
+
+    </script>
+  </body>
+</html>
